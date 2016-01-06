@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	  <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+	</head>
+	<body>
+		 静态页面fwefwef
+		 
+		 <script>
+		 	$(document).ready(function(){
+		 		$.ajax({
+		 			type:"get",
+		 			url:"/user",
+		 			success:function(abc)
+		 			{
+		 				alert(abc);
+		 			}
+		 			 
+		 		});
+		 	})
+		 	
+		 </script>
+	</body>
+</html>

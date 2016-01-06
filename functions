@@ -1,0 +1,14 @@
+<?php 
+   function method($m="")
+   {
+	   if($m=="")
+	    {
+	      return $_SERVER["REQUEST_METHOD"];
+	    }
+	    else
+     	  return strtolower($_SERVER["REQUEST_METHOD"])==$m;
+   }
+
+
+
+?>

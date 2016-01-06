@@ -1,0 +1,30 @@
+<?php  
+class userService
+{
+	function run()
+	{
+		 if(method("post"))
+		 {
+		   $this->addUser();
+		 }
+		 else if(method("put"))
+		  {
+		   $this->updateUser();
+		  }
+		 else
+	 	{
+	 		echo "error";
+	 	}
+	}
+	function addUser()
+	{
+		
+	}
+	function updateUser()
+	{
+		
+	}
+}
+
+
+?>
