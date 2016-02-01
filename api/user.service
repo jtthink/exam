@@ -1,25 +1,30 @@
-<?php
-
-class UserService 
+<?php  
+class userService
 {
-	function run() 
+	function run()
 	{
-		if (method("post")) {
-			$this -> addUser();
-		} else if (method("put")) {
-			$this -> updateUser();
-		} else {
-			echo "error";
-		}
+		 if(method("post"))
+		 {
+		   $this->addUser();
+		 }
+		 else if(method("put"))
+		  {
+		   $this->updateUser();
+		  }
+		 else
+	 	{
+	 		echo "error";
+	 	}
 	}
-
-	function addUser() 
+	function addUser()
 	{
-
+		
 	}
-
-	function updateUser() 
+	function updateUser()
 	{
-
+		
 	}
 }
+
+
+?>
